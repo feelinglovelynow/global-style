@@ -1,0 +1,19 @@
+{
+  "name": "@feelinglovelynow/global-style",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "https://github.com/feelinglovelynow?tab=repositories",
+  "main": "dist/index.css",
+  "description": "Global styling for body, html, common keyframes, common styles and rem assistance",
+  "keywords": [
+    "common",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feelinglovelynow/global-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/feelinglovelynow/global-style/issues"
+  }
+}
