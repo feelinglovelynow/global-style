@@ -77,18 +77,18 @@ body * {
   }
 }
 
-.pr-text {
+.fln__pr-text {
   padding-right: 0.45rem;
 }
 
-.clear {
+.fln__clear {
   clear: both;
 }
 
-.relative {
+.fln__relative {
   position: relative;
 }
 
-.strong {
+.fln__strong {
   font-weight: 600;
 }
