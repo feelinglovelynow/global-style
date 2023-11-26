@@ -19,6 +19,41 @@ body * {
   box-sizing: border-box;
 }
 
+.fln__circle-load {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  border-width: 0.27rem;
+  border-style: solid;
+  border-radius: 100%;
+  animation: fln__circle-load__spin 0.8s infinite linear;
+}
+
+.fln__pr-text {
+  padding-right: 0.45rem;
+}
+
+.fln__clear {
+  clear: both;
+}
+
+.fln__relative {
+  position: relative;
+}
+
+.fln__strong {
+  font-weight: 600;
+}
+
+@keyframes fln__circle-load__spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 @keyframes fln__fade-in {
   0% {
     opacity: 0;
@@ -75,20 +110,4 @@ body * {
     opacity: 0;
     transform: translateY(-0.9rem);
   }
-}
-
-.fln__pr-text {
-  padding-right: 0.45rem;
-}
-
-.fln__clear {
-  clear: both;
-}
-
-.fln__relative {
-  position: relative;
-}
-
-.fln__strong {
-  font-weight: 600;
 }

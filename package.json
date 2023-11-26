@@ -1,10 +1,10 @@
 {
   "name": "@feelinglovelynow/global-style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "https://github.com/feelinglovelynow?tab=repositories",
   "main": "dist/index.css",
-  "description": "Global styling for body, html, common keyframes, common styles and rem assistance",
+  "description": "Common styling to ease web development",
   "keywords": [
     "common",
     "css"
